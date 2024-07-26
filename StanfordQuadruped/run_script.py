@@ -26,6 +26,7 @@ def main(use_imu=False):
     disp = Display()
     disp.show_ip()
 
+#test
     # Create imu handle
     if use_imu:
         imu = IMU(port="/dev/ttyACM0")
